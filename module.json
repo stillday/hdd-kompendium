@@ -1,0 +1,63 @@
+{
+  "name": "hdd-kompendium",
+  "title": "HdDKompendium",
+  "description": "Hort der Drachenkönigin - Kompendium auf Deutsch.",
+  "version": "0.0.1",
+  "minimumCoreVersion": "0.7.9",
+  "compatibleCoreVersion": "0.8.9",
+  "author": "stillday",
+  "dependencies": [],
+  "url": "",
+  "manifest": "",
+  "download": "",
+  "manifestPlusVersion": "1.2.0",
+  "authors": [
+    {
+      "name": "stillday"
+    }
+  ],
+  "packs": [
+    {
+      "name": "maps",
+      "label": "Maps",
+      "path": "/packs/maps.db",
+      "entity": "Scene"
+    },
+    {
+      "name": "actors",
+      "label": "Actors",
+      "path": "/packs/actors.db",
+      "entity": "Actor"
+    },
+    {
+      "name": "journals",
+      "label": "Journals",
+      "path": "/packs/journals.db",
+      "entity": "JournalEntry"
+    },
+    {
+      "name": "items",
+      "label": "Items",
+      "path": "/packs/items.db",
+      "entity": "Item"
+    },
+    {
+      "name": "rolltables",
+      "label": "Rolltables",
+      "path": "/packs/rolltables.db",
+      "entity": "RollTable"
+    },
+    {
+      "name": "macros",
+      "label": "Macros",
+      "path": "/packs/macros.db",
+      "entity": "Macro"
+    },
+    {
+      "name": "playlists",
+      "label": "Playlists",
+      "path": "/packs/playlists.db",
+      "entity": "Playlist"
+    }
+  ]
+}
